@@ -1,4 +1,4 @@
-# **Day#1: Introduction to Log Analysis**
+# **Day 1: Introduction to Log Analysis**
 
 ## **Objective:**
 In this task, I aim to understand what a log is, explore different log sources on Linux and Windows, and learn how a SOC Analyst uses log analysis for incident detection, forensics, security monitoring, and compliance. I will also perform a lab to simulate and detect PowerShell events using Windows Event Viewer.
