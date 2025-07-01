@@ -15,7 +15,7 @@ Over the course of 30 days, I’ll be exploring and practicing the following key
 4.  **Hands-on with Splunk** – Search, detection rules, dashboards
 5.  **Phishing Analysis** – Email header and payload examination
 6.  **Threat Analysis & Digital Forensics** – Investigating indicators of compromise
-7. 🛡 **Endpoint Detection and Response (EDR)** with **Wazuh** – Monitoring endpoints in real time
+7.  **Endpoint Detection and Response (EDR)** with **Wazuh** – Monitoring endpoints in real time
 
 ---
 
@@ -54,9 +54,9 @@ If you'd like to join or improve any part of this challenge, feel free to fork a
 
 ---
 
-## 📬 Contact
+##  Contact
 
-- LinkedIn: [Your LinkedIn](https://shorturl.at/n0IW5)
+- LinkedIn: [LinkedIn](https://shorturl.at/n0IW5)
 - GitHub: [@Gajraj238](https://github.com/Gajraj238)
 
 ---
