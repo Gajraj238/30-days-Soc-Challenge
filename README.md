@@ -1,4 +1,4 @@
-# 🚨 30 Days of SOC Challenge 🚨
+#  30 Days of SOC Challenge 
 
 Welcome to the **30 Days of SOC Challenge!**  
 This is my personal journey to dive deep into the world of Security Operations Centers (SOC), sharpen my Blue Team skills, and document everything I learn along the way. If you're starting out in cybersecurity or looking to strengthen your SOC skills—follow along!
@@ -43,12 +43,12 @@ This project keeps me accountable and helps others learn too.
 I'll be posting daily summaries and insights on [LinkedIn](https://shorturl.at/n0IW5)  
 Feel free to follow, connect, or join the challenge!
 
-📌 **Challenge Repository:**  
+ **Challenge Repository:**  
 [https://github.com/Gajraj238/30-days-Soc-Challenge](https://github.com/Gajraj238/30-days-Soc-Challenge)
 
 ---
 
-## 🙌 Contributions Welcome!
+##  Contributions Welcome!
 
 If you'd like to join or improve any part of this challenge, feel free to fork and submit a PR. Let’s grow together in cybersecurity!
 
