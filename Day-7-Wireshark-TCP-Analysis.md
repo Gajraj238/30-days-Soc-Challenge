@@ -1,4 +1,4 @@
-# **Day#8: Wireshark Basics – TCP  Protocol Analysis**
+# **Day#7Wireshark Basics – TCP  Protocol Analysis**
 
 ## Objective
 
@@ -45,7 +45,7 @@ Use these filters in Wireshark’s **Display Filter** bar:
 
 ---
 
-## **Lab Task: TCP Packet Analysis in Wireshark**
+## **Lab Task: TCP Packet Analysis and 3 way handshake:
 
 ###  **Task 1: Show All TCP Packets**
 
