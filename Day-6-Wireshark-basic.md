@@ -4,7 +4,7 @@
 
 ## Objective
 
-Today, my goal is to learn how to use **Wireshark** for packet-level analysis by creating display and capture filters for ICMP traffic and observing the **TCP 3-way handshake**. This helps me understand how to detect ping sweeps, connection attempts, and network reconnaissance activities—key skills for any SOC Analyst.
+Today, my goal is to learn how to use *Wireshark* for packet-level analysis of **ICMP traffic** by applying display and capture filters. This helps me understand how to detect ping sweeps, unreachable hosts, and reconnaissance activity—critical skills for network troubleshooting and SOC Analyst roles.
 
 
 ## **Lab Setup**
@@ -65,7 +65,7 @@ Use these filters in Wireshark’s **Display Filter** bar:
 
 ---
 
-## Lab Task - Filtering Traffic in Wireshark – ICMP and TCP 3-Way Handshake Analysis
+## Lab Task - Filtering Traffic in Wireshark – ICMP 
 
 ## **Task#1: Create a Display Filter for ICMP Traffic**
 
@@ -135,42 +135,11 @@ Use these filters in Wireshark’s **Display Filter** bar:
 
 ---
 
-## **Task#3: Capture Filter for TCP 3-Way Handshake**
-
-### **Understanding the TCP 3-Way Handshake:**
-
-| Step | TCP Flags | Description                 |
-| ---- | --------- | --------------------------- |
-| 1    | SYN       | Client initiates connection |
-| 2    | SYN, ACK  | Server acknowledges         |
-| 3    | ACK       | Client confirms             |
-
-### **Instructions:**
-
-1. In Wireshark, go to **Capture > Options**.
-
-2. In the **Capture Filter** field, type:
-
-   tcp\[tcpflags] & tcp-syn != 0
-
-3. Click **Start**.
-
-4. Open a browser and navigate to [https://example.com](https://example.com) or another website.
-
-5. Let a few packets capture, then stop the capture.
-
-### **Expected Output:**
-
-* You’ll only capture TCP packets that **initiate** a connection (SYN flag set).
-* Ideal for viewing connection attempts.
-
----
-
 ##  Conclusion
 - ICMP is a fundamental protocol for network troubleshooting.
 - Wireshark helps visualize ICMP packet flow and structure.
 - Understanding ICMP helps detect network scanning, ping sweeps, and unreachable hosts.
 **Display Filters** help inspect specific traffic types during analysis.
 * **Capture Filters** reduce noise by only collecting what matters.
-* Understanding **ICMP** and **TCP 3-way handshakes** is essential for detecting reconnaissance and connection attempts in SOC operations.
+* Understanding **ICMP** is essential for detecting reconnaissance and connection attempts in SOC operations.
 
