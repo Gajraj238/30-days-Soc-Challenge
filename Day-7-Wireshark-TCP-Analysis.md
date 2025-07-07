@@ -1,7 +1,5 @@
 # **Day#8: Wireshark Basics – TCP  Protocol Analysis**
 
----
-
 ## Objective
 
 my goal is to learn how to use *Wireshark* for TCP protocol analysis by examining packet structures and applying display filters to identify all TCP packets, as well as SYN and FIN flags. This helps me understand how to track connection states, detect network scans, and analyze abnormal TCP behavior—key skills for any SOC Analyst or cybersecurity professional.
@@ -12,7 +10,6 @@ my goal is to learn how to use *Wireshark* for TCP protocol analysis by examinin
 ### **System Requirements**
 - **Operating System:** Windows 10/11 (or Linux/macOS)
 - **Software:** Wireshark (latest version)
-
 
 ---
 
@@ -58,7 +55,7 @@ Use these filters in Wireshark’s **Display Filter** bar:
 2. Start a packet capture or open a saved capture file.
 3. In the **Display Filter** bar, enter the following filter:
 
-```
+```wireshark
 tcp
 ```
 
@@ -75,7 +72,7 @@ Wireshark displays all packets using the TCP protocol.
 
 1. In the **Display Filter** bar, enter:
 
-```
+```wireshark
 tcp.flags.syn == 1 && tcp.flags.ack == 0
 ```
 
