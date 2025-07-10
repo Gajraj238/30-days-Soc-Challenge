@@ -1,4 +1,4 @@
-# **Day#11: Introduction to Incident Response**
+# **Day 10: Introduction to Incident Response**
 
 ## **Objective:**
 Today, my goal is to understand the fundamentals of **Incident Response (IR)** by exploring the NIST IR lifecycle, identifying common types of security incidents across platforms, and practicing hands-on detection and response to a simulated RDP brute-force attack. This helps build essential skills in identifying, containing, and responding to real-world threats—a core responsibility for any SOC Analyst.
