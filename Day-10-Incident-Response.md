@@ -30,7 +30,7 @@ The NIST Incident Response Lifecycle includes **4 main phases**:
 
 ---
 
-## **Common Types of Incidents on Windows:**
+
 
 ## **Common Types of Incidents Across Platforms**
 
