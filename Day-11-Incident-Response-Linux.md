@@ -1,7 +1,5 @@
 # **Day 11: Incident Response Basics – Linux Suspicious Bash Script Execution**
 
----
-
 ## **Objective:**  
 Today, my goal is to understand how to detect and respond to suspicious bash script execution on a Linux system by following the NIST Incident Response process. This includes identifying malicious activity in `/tmp`, analyzing running processes, containing the threat, and documenting findings—essential skills for SOC analysts investigating Linux-based intrusions.
 
