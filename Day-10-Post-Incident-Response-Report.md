@@ -1,6 +1,4 @@
-Here is a **Post-Incident Response Report** based on the RDP brute-force attack detection, mapped to the **NIST SP 800-61 Rev. 2** Incident Response Framework, and informed by your screenshots and lab context:
 
----
 
 #  **Post-Incident Response Report – Day 10: Windows RDP Brute Force Attack**
 
